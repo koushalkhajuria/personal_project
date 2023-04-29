@@ -18,7 +18,7 @@ nav{
 }
 
 hr {
-  border:.5px solid #e4dede;
+  border:.5px solid #ebe4e4;
 }
 
 nav .nav_top{
@@ -62,9 +62,8 @@ nav .nav_top a{
 
 #airbnb_logo{
   margin-top:3px;
-  background:#FFF;
-  width:40px;
-  height:40px;
+  width:70px;
+  height:50px;
 }
 
 @media only screen and (max-width:700px){
@@ -147,6 +146,7 @@ nav .nav_top a{
 }
 
 #nav_end #nav_end_profile{
+  margin-left:15px;
   padding:6px 12px 2px;
   border: 1px solid #e4dede;
 }
@@ -201,6 +201,18 @@ nav .nav_top a{
   width: 20px;
   margin-bottom: 5px;
   margin-right:10px;
+}
+
+
+#toggle{
+  width:33px;
+  border-radius: 50%;
+  height:23px;
+  background-color: #8d8484;
+}
+
+#toggle::before{
+content: "\1F319"
 }
 
 
@@ -435,6 +447,69 @@ footer{
 
 
 
+
+
+
+
+
+
+
+
+
+.hr-dark{
+  border:.5px solid #2a2525;
+}
+
+.body-dark{
+  background-color: #262222;
+  color:#b4aeae;
+}
+
+.nav-dark{
+  border:.5px solid #534e4e;
+  color:#c6bdbd;
+  background-color: #2f2d2d;
+}
+.nav-class-dark{
+  color:#6d6666;
+}
+
+.nav_top.dark{
+  color:#9b9393;
+}
+
+.nav_top.dark a{
+  color:#918888;
+}
+
+.nav_middle-dark{
+  border: 1px solid #7c766c;
+}
+
+.nav_end_profile-dark{
+  border: 1px solid #7c766c	;
+}
+
+.nav_search_card-dark{
+  color: #ada6a6;
+}
+
+ .nav_quick_search_filter-dark{
+  border: 1px solid #7c766c;
+}
+
+ .section_card_img_arrow-dark{
+  background-color: #544e4e;
+}
+
+
+.footer-dark{
+  background-color: #313030;
+}
+
+.footer_container_1.dark span{
+  color:#bfbaba;
+}
 
 
 
