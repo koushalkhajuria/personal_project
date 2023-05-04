@@ -34,3 +34,17 @@ dark.onclick = () => {
   nav_search_card_filter.classList.toggle('nav_quick_search_filter-dark')
   isDark=!isDark;
 }
+
+
+const coupon = document.querySelector('.coupon')
+const closeCoupon = document.querySelector('#close_coupon')
+function loadCoupon(){
+  document.getElementById('coupon').style.visibility = 'visible';
+}
+window.onload = loadCoupon()
+
+
+closeCoupon.onclick = () =>{
+  document.getElementById('coupon').style.visibility = 'hidden';
+}
+
