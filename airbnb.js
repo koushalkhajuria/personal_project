@@ -39,12 +39,12 @@ dark.onclick = () => {
 const coupon = document.querySelector('.coupon')
 const closeCoupon = document.querySelector('#close_coupon')
 function loadCoupon(){
-  document.getElementById('coupon').style.visibility = 'visible';
+  document.getElementById('coupon').style.display = 'block';
 }
 window.onload = loadCoupon()
 
 
 closeCoupon.onclick = () =>{
-  document.getElementById('coupon').style.visibility = 'hidden';
+  document.getElementById('coupon').style.display = 'none';
 }
 
